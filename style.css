@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(105, 68, 255);
+    font-family: 'Quicksand', sans-serif;;
+}
+
+body{    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 35vw;
+    height: 97vh;
+    border-radius: 5px;
+    }
+div, strong, p{
+    background-color: white;
+}
+ img{
+    border-radius: 50%;
+    box-shadow: 3px 3px 15px gray;
+}  
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    color: rgb(105, 68, 255);
+    font-size: 35px;
+}
+.profesion, .city{
+    font-size: 20px;
+    margin-top: 5px;
+}
+span, i{
+    background-color: white;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.followers, .following, .art{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 70px;
+}
+.twitter{
+    color: rgb(29, 161, 242);
+}
+.face{
+   color: rgb(0, 120, 215)
+}
+
+.instagram{
+    color: rgb(225, 48, 108);
+}
+
+.git{
+    color: rgb(51, 51, 51);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.follow{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color:  rgb(225, 48, 108);
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+
+
